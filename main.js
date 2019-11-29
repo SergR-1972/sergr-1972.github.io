@@ -5,10 +5,10 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
    let mySrc = myImage.getAttribute('src');
 /*   alert('mySrc='+ mySrc);*/
-   if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute('src', 'images/boxes.jpg');
+   if(mySrc === '/firefox-icon.png') {
+      myImage.setAttribute('src', '/boxes.jpg');
    } else {
-      myImage.setAttribute('src', 'images/firefox-icon.png');
+      myImage.setAttribute('src', '/firefox-icon.png');
    }
 }
 
